@@ -1,8 +1,16 @@
 
-tr:hover {
-    background-color: #f0f0f0;
+/* Descendant selector */
+.expenses-section td {
+    padding: 10px;
 }
 
-button {
-    cursor: pointer;
+/* Position pseudo-class */
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Focus pseudo-class */
+input:focus {
+    border: 2px solid blue;
+    outline: none;
 }
